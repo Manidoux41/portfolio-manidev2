@@ -6,6 +6,7 @@ import kanap from "../assets/portfolio/kanap.png";
 import pikante from "../assets/portfolio/pikante.png";
 import kasa from "../assets/portfolio/kasa.png";
 import html from '../assets/technos/html.png';
+import css from '../assets/technos/css.png'
 
 const Portfolio = () => {
   const portfolios = [
@@ -14,36 +15,48 @@ const Portfolio = () => {
       src: booki,
       demo: 'https://manidoux41.github.io/booki_v5/',
       code: 'https://github.com/Manidoux41/booki_v5.git', 
+      technos: [html, css],
+      description: "Intégration d'une maquette en html et css"
     },
     {
       id: 2,
       src: ohmyfood,
       demo: 'https://manidoux41.github.io/ohMyfood_v4/',
-      code: 'https://github.com/Manidoux41/ohMyfood_v4.git', 
+      code: 'https://github.com/Manidoux41/ohMyfood_v4.git',
+      technos: [html, css],
+      description: "Intégration d'une maquette en html et css" 
     },
     {
       id: 3,
       src: lapanthere,
       demo: 'https://la-panthere-v3.vercel.app',
-      code: 'https://github.com/Manidoux41/la_panthere_v3.git', 
+      code: 'https://github.com/Manidoux41/la_panthere_v3.git',
+      technos: [html, css],
+      description: "Intégration d'une maquette en html et css"                          
     },
     {
       id: 4,
       src: kanap,
       demo: 'https://front-p5.vercel.app',
-      code: 'https://github.com/Manidoux41/back-p5.git', 
+      code: 'https://github.com/Manidoux41/back-p5.git',
+      technos: [html, css],
+      description: "Intégration d'une maquette en html et css" 
     },
     {
       id: 5,
       src: pikante,
       demo: 'https://front-pikante.vercel.app',
-      code: 'https://github.com/Manidoux41/Pikante_v4', 
+      code: 'https://github.com/Manidoux41/Pikante_v4',
+      technos: [html, css],
+      description: "Intégration d'une maquette en html et css" 
     },
     {
       id: 6,
       src: kasa,
       demo: 'https://kasa-v2.vercel.app',
-      code: 'https://github.com/Manidoux41/kasa_v3.git', 
+      code: 'https://github.com/Manidoux41/kasa_v3.git',
+      technos: [html, css],
+      description: "Intégration d'une maquette en html et css" 
     },
   ];
 
@@ -58,7 +71,7 @@ const Portfolio = () => {
           <p className=" py-6">Check out some of my work right here</p>
         </div>
         <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
-        {portfolios.map(({ id, src,demo,code }) => (
+        {portfolios.map(({ id, src,demo,code,description, technos }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg ">
               <img
                 src={src}
@@ -73,11 +86,13 @@ const Portfolio = () => {
                   Code
                 </a>
               </div>
-              <div className="flex flex-col items-center py-4 w-full mx-auto">
-                <p className="font-bold text-blue-300">technos utilisées</p>
-                <p className="py-2 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam cumque.</p>
-                <div className="flex justify-center">
-                  <img src={html} alt="technos"  className="h-4 w-4"/>
+              <div className="flex flex-col items-center p-4 w-full mx-auto">
+                <p className="font-bold text-blue-300">Technos utilisées</p>
+                <p className="py-2 text-center text-sm">{description}</p>
+                <div className="flex justify-center gap-1">
+                  {technos.map(tech => (
+                    <img src={tech} alt="techno" className="h-4 w-4"/>
+                  ))} 
                 </div>
               </div>
             </div>
