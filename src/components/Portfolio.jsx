@@ -5,6 +5,7 @@ import lapanthere from "../assets/portfolio/lapanthere.png";
 import kanap from "../assets/portfolio/kanap.png";
 import pikante from "../assets/portfolio/pikante.png";
 import kasa from "../assets/portfolio/kasa.png";
+import html from '../assets/technos/html.png';
 
 const Portfolio = () => {
   const portfolios = [
@@ -49,9 +50,9 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-full"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg py-10 px-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>
           <p className=" py-6">Check out some of my work right here</p>
@@ -65,12 +66,19 @@ const Portfolio = () => {
                 className="object-cover rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <a href={demo} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a href={demo} className=" bg-blue-600 text-center rounded-md w-1/2 px-6 py-2 m-2 duration-200 hover:scale-105 hover:bg-blue">
                   Demo
                 </a>
-                <a href={code} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a href={code} className=" bg-blue-600 text-center rounded-md w-1/2 px-6 py-2 m-2 duration-200 hover:scale-105 hover:bg-blue">
                   Code
                 </a>
+              </div>
+              <div className="flex flex-col items-center py-4 w-full mx-auto">
+                <p className="font-bold text-blue-300">technos utilisées</p>
+                <p className="py-2 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam cumque.</p>
+                <div className="flex justify-center">
+                  <img src={html} alt="technos"  className="h-4 w-4"/>
+                </div>
               </div>
             </div>
         ))}
