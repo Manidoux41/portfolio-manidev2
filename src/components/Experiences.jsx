@@ -3,7 +3,7 @@ import css from "../assets/technos/css.png";
 import javascript from "../assets/technos/javascript.png";
 import reactImage from "../assets/technos/reactJS.png";
 import mongoDB from "../assets/technos/mongoDb.png";
-import github from "../assets/technos/Github.png";
+import gitHubImage from "../assets/technos/Github.png";
 import tailwindcss from "../assets/technos/tailwindcss.png";
 import nodeJS from "../assets/technos/nodejs-1-logo.png";
 import php from "../assets/technos/php-logo.png";
@@ -49,7 +49,7 @@ const Experiences = () => {
     },
     {
       id: 7,
-      src: github,
+      src: gitHubImage,
       title: "Github",
       style: "shadow-gray-400",
     },
