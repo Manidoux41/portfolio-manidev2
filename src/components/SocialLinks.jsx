@@ -12,7 +12,7 @@ const SocialLinks = () => {
           Linkedin <FaLinkedin size={30} />
         </>
       ),
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/manfred-p-804a72198/',
       style: 'rounded-tr-md'
     },
     {
