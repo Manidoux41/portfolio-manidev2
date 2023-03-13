@@ -7,6 +7,11 @@ import pikante from "../assets/portfolio/pikante.png";
 import kasa from "../assets/portfolio/kasa.png";
 import html from '../assets/technos/html.png';
 import css from '../assets/technos/css.png'
+import javascript from "../assets/technos/javascript.png";
+import reactImage from "../assets/technos/reactJS.png";
+import mongoDB from "../assets/technos/mongoDb.png";
+import gitHubImage from "../assets/technos/gitHubImage.png";
+import nodeJS from "../assets/technos/nodejs-1-logo.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -23,7 +28,7 @@ const Portfolio = () => {
       src: ohmyfood,
       demo: 'https://manidoux41.github.io/ohMyfood_v4/',
       code: 'https://github.com/Manidoux41/ohMyfood_v4.git',
-      technos: [html, css],
+      technos: [html, css, gitHubImage],
       description: "Intégration d'une maquette en html et css" 
     },
     {
@@ -31,7 +36,7 @@ const Portfolio = () => {
       src: lapanthere,
       demo: 'https://la-panthere-v3.vercel.app',
       code: 'https://github.com/Manidoux41/la_panthere_v3.git',
-      technos: [html, css],
+      technos: [html, css, gitHubImage],
       description: "Intégration d'une maquette en html et css"                          
     },
     {
@@ -39,7 +44,7 @@ const Portfolio = () => {
       src: kanap,
       demo: 'https://front-p5.vercel.app',
       code: 'https://github.com/Manidoux41/back-p5.git',
-      technos: [html, css],
+      technos: [javascript, gitHubImage],
       description: "Intégration d'une maquette en html et css" 
     },
     {
@@ -47,7 +52,7 @@ const Portfolio = () => {
       src: pikante,
       demo: 'https://front-pikante.vercel.app',
       code: 'https://github.com/Manidoux41/Pikante_v4',
-      technos: [html, css],
+      technos: [html, css, mongoDB, nodeJS,gitHubImage],
       description: "Intégration d'une maquette en html et css" 
     },
     {
@@ -55,7 +60,7 @@ const Portfolio = () => {
       src: kasa,
       demo: 'https://kasa-v2.vercel.app',
       code: 'https://github.com/Manidoux41/kasa_v3.git',
-      technos: [html, css],
+      technos: [html, css, javascript,reactImage,gitHubImage],
       description: "Intégration d'une maquette en html et css" 
     },
   ];
