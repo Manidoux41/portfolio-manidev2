@@ -84,10 +84,12 @@ const Portfolio = () => {
                 className="object-cover rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <a href={demo} className=" bg-blue-600 text-center rounded-md w-1/2 px-6 py-2 m-2 duration-200 hover:scale-105 hover:bg-blue">
+                <a href={demo} className=" bg-blue-600 text-center rounded-md w-1/2 px-6 py-2 m-2 duration-200 hover:scale-105 hover:bg-blue" target='_blank'
+            rel="noreferrer">
                   Demo
                 </a>
-                <a href={code} className=" bg-blue-600 text-center rounded-md w-1/2 px-6 py-2 m-2 duration-200 hover:scale-105 hover:bg-blue">
+                <a href={code} className=" bg-blue-600 text-center rounded-md w-1/2 px-6 py-2 m-2 duration-200 hover:scale-105 hover:bg-blue" target='_blank'
+            rel="noreferrer">
                   Code
                 </a>
               </div>
