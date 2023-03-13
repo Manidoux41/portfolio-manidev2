@@ -11,7 +11,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: booki,
-      demo: 'manidoux41.github.io/booki_v5/',
+      demo: 'https://manidoux41.github.io/booki_v5/',
       code: 'https://github.com/Manidoux41/booki_v5.git', 
     },
     {
