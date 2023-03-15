@@ -7,10 +7,11 @@ const About = () => {
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>A propos de moi</p>
             </div>
-            <p className='text-xl mt-20 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit velit perspiciatis delectus vel rerum distinctio molestiae, nam maiores ducimus ipsum quo, reprehenderit reiciendis vitae cupiditate aliquam nesciunt inventore porro dignissimos! Ad quia suscipit molestiae, dolore omnis dolor, excepturi non, nostrum voluptas sit animi quos soluta atque consequuntur fugit autem nam.                
+            <p className='text-xl mt-20 '>Je suis avant tout un passionné. Passionné de découvrir de nouveau languages informatique, passionné dans le fait même d'apprendre. C'est cette passion qui fait de moi un véritable couteau suisse dans la crétation et le développement d'application web. HTML, CSS et javascript sont à ce jour des languages qui ont très peu de secret pour moi. Bien évidemment, l'univers du web étant en évolution perpétuelle, il me reste toujours de nouvelles chose à découvrir. 
             </p>
             <br />
-            <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum placeat quidem sed rem neque quaerat totam tempora quasi beatae, veritatis libero, quis possimus eaque. Inventore animi a numquam provident fuga saepe explicabo quos possimus autem quod ut consectetur molestias nostrum aperiam mollitia incidunt sed quaerat fugiat accusantium, aut quae.                
+            <p className='text-xl'>Le travail en équipe ne m'est pas inconnu et je suis toujours à l'écoute des remarques de ceux avec qui je travaille. Ainsi les projets que j'ai réalisé au cours de ma formation chez OpenClassrooms reflète de ma tenacité quant à l'aboutissement d'une fonctionnalité que j'ai à implémenter, mais témoigne également d'un travail de qualité que je suis en mesure de rendre dans des délais impartis. 
+            Aussi, si vous me faites confiance dans la réalisation de vos projets, soyez assuré des maîtres-mots suivants : <bold className="font-bold">"Qualité et Délais"</bold>.               
             </p>
         </div>
     </div>

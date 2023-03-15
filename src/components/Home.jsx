@@ -23,8 +23,7 @@ const Home = () => {
           wrapper='span'
           repeat={Infinity} /></div>
           <p className="text-gray-500 py-4  max-w-md">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus inventore consequuntur neque? Esse aut et perferendis veniam totam laborum alias, itaque reprehenderit ad expedita placeat exercitationem doloribus accusamus unde fugiat!.
-          </p>
+          Après des années d'apprentissage en autodidacte, je viens de terminer le cursus de développeur web de Openclassroom qui me permet de décroché un titre professionnel de catégorie V. J'ai fait mes classes avec PHP il y a 10 ans, cette formation me permet de maîtriser d'autres languages et frameworks. Ma devise: "Si d'autres l'ont fait, tu le peux"          </p>
           <div>
             <Link to="portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
               Portfolio
