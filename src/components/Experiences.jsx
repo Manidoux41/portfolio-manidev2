@@ -63,7 +63,7 @@ const Experiences = () => {
       id: 9,
       src: symfony,
       title: "Symfony",
-      style: "shadow-black",
+      style: "shadow-white",
     },
     {
       id: 10,
