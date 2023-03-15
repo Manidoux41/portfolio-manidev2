@@ -29,7 +29,7 @@ const Portfolio = () => {
       demo: 'https://manidoux41.github.io/ohMyfood_v4/',
       code: 'https://github.com/Manidoux41/ohMyfood_v4.git',
       technos: [html, css, gitHubImage],
-      description: "Intégration d'une maquette en html et css" 
+      description: "Dynamiser une page web avec des animation" 
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ const Portfolio = () => {
       demo: 'https://la-panthere-v3.vercel.app',
       code: 'https://github.com/Manidoux41/la_panthere_v3.git',
       technos: [html, css, gitHubImage],
-      description: "Intégration d'une maquette en html et css"                          
+      description: "Optimisation SEO d'un site web existant"                          
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ const Portfolio = () => {
       demo: 'https://front-p5.vercel.app',
       code: 'https://github.com/Manidoux41/back-p5.git',
       technos: [javascript, gitHubImage],
-      description: "Intégration d'une maquette en html et css" 
+      description: "Construction d'un site e-commerce en javascript" 
     },
     {
       id: 5,
@@ -53,7 +53,7 @@ const Portfolio = () => {
       demo: 'https://front-pikante.vercel.app',
       code: 'https://github.com/Manidoux41/Pikante_v4',
       technos: [html, css, mongoDB, nodeJS,gitHubImage],
-      description: "Intégration d'une maquette en html et css" 
+      description: "Création d'une application web de location immobilière avec ReactJS" 
     },
     {
       id: 6,
@@ -94,7 +94,7 @@ const Portfolio = () => {
                 </a>
               </div>
               <div className="flex flex-col items-center p-4 w-full mx-auto">
-                <p className="font-bold text-blue-300">Technos utilisées</p>
+                <p className="font-bold text-blue-300">Description et technos</p>
                 <p className="py-2 text-center text-sm">{description}</p>
                 <div className="flex justify-center gap-1">
                   {technos.map(tech => (
