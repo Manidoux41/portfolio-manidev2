@@ -5,7 +5,7 @@ import lapanthere from "../assets/portfolio/lapanthere.png";
 import kanap from "../assets/portfolio/kanap.png";
 import pikante from "../assets/portfolio/pikante.png";
 import kasa from "../assets/portfolio/kasa.png";
-import wikirocket from "../assets/portfolio/wikirocket.PNG"
+import wikirocket from "../assets/portfolio/wikirocket.png"
 import html from '../assets/technos/html.png';
 import css from '../assets/technos/css.png'
 import javascript from "../assets/technos/javascript.png";
@@ -13,6 +13,7 @@ import reactImage from "../assets/technos/reactJS.png";
 import mongoDB from "../assets/technos/mongoDb.png";
 import gitHubImage from "../assets/technos/gitHubImage.png";
 import nodeJS from "../assets/technos/nodejs-1-logo.png";
+import tailwind from "../assets/technos/tailwindcss.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -69,7 +70,7 @@ const Portfolio = () => {
       src: wikirocket,
       demo: 'https://wiki-rocket-gamma.vercel.app/',
       code: 'https://github.com/Manidoux41/wikiRocket.git', 
-      technos: [html, css, javascript,reactImage,gitHubImage],
+      technos: [html, css, javascript,reactImage,tailwind],
       description: "création d'un moteur de recherche basé sur wikipedia"
     }
   ];
