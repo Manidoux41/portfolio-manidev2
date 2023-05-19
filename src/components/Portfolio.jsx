@@ -5,6 +5,7 @@ import lapanthere from "../assets/portfolio/lapanthere.png";
 import kanap from "../assets/portfolio/kanap.png";
 import pikante from "../assets/portfolio/pikante.png";
 import kasa from "../assets/portfolio/kasa.png";
+import wikirocket from "../assets/portfolio/wikirocket.PNG"
 import html from '../assets/technos/html.png';
 import css from '../assets/technos/css.png'
 import javascript from "../assets/technos/javascript.png";
@@ -62,6 +63,14 @@ const Portfolio = () => {
       code: 'https://github.com/Manidoux41/kasa_v3.git',
       technos: [html, css, javascript,reactImage,gitHubImage],
       description: "Intégration d'une maquette en html et css" 
+    },
+    {
+      id: 7,
+      src: wikirocket,
+      demo: 'https://wiki-rocket-gamma.vercel.app/',
+      code: 'https://github.com/Manidoux41/wikiRocket.git', 
+      technos: [html, css, nextJS, tailwindcss, typescript],
+      description: "création d'un moteur de recherche basé sur wikipedia"
     },
   ];
 
