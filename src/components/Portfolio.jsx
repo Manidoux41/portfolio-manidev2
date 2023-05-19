@@ -69,9 +69,9 @@ const Portfolio = () => {
       src: wikirocket,
       demo: 'https://wiki-rocket-gamma.vercel.app/',
       code: 'https://github.com/Manidoux41/wikiRocket.git', 
-      technos: [html, css, nextJS, tailwindcss, typescript],
+      technos: [html, css, javascript,reactImage,gitHubImage],
       description: "création d'un moteur de recherche basé sur wikipedia"
-    },
+    }
   ];
 
   return (
