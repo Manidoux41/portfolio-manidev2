@@ -5,7 +5,7 @@ import lapanthere from "../assets/portfolio/lapanthere.png";
 import kanap from "../assets/portfolio/kanap.png";
 import pikante from "../assets/portfolio/pikante.png";
 import kasa from "../assets/portfolio/kasa.png";
-import wikirocket from "../assets/portfolio/wikirocket.jpg"
+import youhou from "../assets/portfolio/wikirocket.jpg"
 import html from '../assets/technos/html.png';
 import css from '../assets/technos/css.png'
 import javascript from "../assets/technos/javascript.png";
@@ -67,7 +67,7 @@ const Portfolio = () => {
     },
     {
       id: 7,
-      src: wikirocket,
+      src: youhou,
       demo: 'https://wiki-rocket-gamma.vercel.app/',
       code: 'https://github.com/Manidoux41/wikiRocket.git', 
       technos: [html, css, javascript,reactImage,tailwind],
